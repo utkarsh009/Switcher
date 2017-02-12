@@ -38,3 +38,5 @@ Now that you're done with prequisites let's move ahead and run the install scrip
 
 	# chmod 755 install.sh
 	# ./install.sh
+
+Edit: I use xfce as my window manager in fedora 25. So, I can't guarantee that the code will work with other Window managers. For that you need to check where the autostart configuration file is stored. (The file/folder related to Session and Autostart Applications.
