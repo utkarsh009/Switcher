@@ -4,23 +4,25 @@ If all you want is a longer battery life and acceptable graphics performance whi
 This script will automatically make a switch from nvidia card to intel IGP.
 
 So, without wasting much time let's start off.
-Prequisites
-1. You need to have make, git, dkms and kernel-devel installed.
+
+Prequisites:
+
+You need to have make, git, dkms and kernel-devel installed.
 
     # dnf update
-  	# dnf install make git dkms kernel-devel
+    # dnf install make git dkms kernel-devel
     # reboot
     
-2. You will need to clone the bbswitch git repository.
+You will need to clone the bbswitch git repository.
 
-  # git clone https://github.com/Bumblebee-Project/bbswitch
+	# git clone https://github.com/Bumblebee-Project/bbswitch
 
 
-3. You need to install the bbswitch module. I'd recommend to install it in such a way that it survives kernel upgrades and hence saves you from the trouble of having to set it up everytime you update your system. Change your current directory to bbswitch directory and execute the following command.
+You need to install the bbswitch module. I'd recommend to install it in such a way that it survives kernel upgrades and hence saves you from the trouble of having to set it up everytime you update your system. Change your current directory to bbswitch directory and execute the following command.
 
-  # make -f Makefile.dkms
-  # reboot
-4. You need to set up your system to have passwordless sudo access.
+	# make -f Makefile.dkms
+	# reboot
+You need to set up your system to have passwordless sudo access.
 
 	# sudo visudo
 Then move to line where it says:
