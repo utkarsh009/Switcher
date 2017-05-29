@@ -5,7 +5,6 @@ Type=Application
 Name=Switcher
 Comment=Switch to intel Graphics
 Exec=sudo /usr/local/bin/Switcher.sh
-OnlyShowIn=XFCE;
 StartupNotify=false
 Terminal=false
 Hidden=false
